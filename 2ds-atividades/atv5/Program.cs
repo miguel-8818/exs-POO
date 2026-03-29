@@ -18,6 +18,7 @@ namespace atv5
             double resultado = graus.Converter();
 
             Console.WriteLine("Temperatura em Fahrenheit: " + resultado);
+            Console.ReadLine();
         }
     }
 }
