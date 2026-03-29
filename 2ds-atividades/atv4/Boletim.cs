@@ -8,24 +8,25 @@ namespace atv4
 {
     internal class Boletim
     {
-        public double num1 { get; set; }
-        public double num2 { get; set; }
-        public double num3 { get; set; }
-        public string aluno;
-        public double CalcularMedia()
+        public double num1; 
+        public double num2;
+        public double num3;
+        public double media;
+
+        public double CalcularMedia() 
         {
-            return (num1 + num2 + num3) / 3;
+            return media = (num1 + num2 + num3) / 3; 
         }
 
-        public string VerificarAprovacao()
+        public string VerificarAprovacao() 
         {
             if (CalcularMedia() >= 7)
             {
-                return "Aprovado";
+                return "Aprovado!";
             }
             else
             {
-                return "Reprovado";
+                return "Reprovado!";
             }
         }
     }
