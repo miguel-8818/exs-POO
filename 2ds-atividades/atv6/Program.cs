@@ -16,6 +16,7 @@ namespace atv6
             numero.Valor = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("O dobro é: " + numero.Dobro());
+            Console.ReadLine();
         }
     }
 }
