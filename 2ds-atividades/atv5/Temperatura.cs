@@ -8,7 +8,7 @@ namespace atv5
 {
     internal class Temperatura
     {
-        public double Celsius { get; set; }
+        public double Celsius;
         public string graus;
 
         public double Converter()
