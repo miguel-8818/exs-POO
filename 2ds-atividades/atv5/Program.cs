@@ -12,7 +12,7 @@ namespace atv5
         {
             Temperatura graus = new Temperatura();
 
-            Console.Write("Digite a temperatura em Celsius: ");
+            Console.Write("Digite a Temperatura em Celsius: ");
             graus.Celsius = Convert.ToDouble(Console.ReadLine());
 
             double resultado = graus.Converter();
