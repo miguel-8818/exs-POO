@@ -8,7 +8,7 @@ namespace atv6
 {
     internal class Dobrar
     {
-        public double Valor { get; set; }
+        public double Valor;
 
 
         public double Dobro()
