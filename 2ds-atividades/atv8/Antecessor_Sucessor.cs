@@ -8,7 +8,7 @@ namespace atv8
 {
     internal class Antecessor_Sucessor
     {
-        public int Numero { get; set; }
+        public int Numero;
         public string valor;
 
         public int Antecessor()
