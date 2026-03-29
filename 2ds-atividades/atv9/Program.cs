@@ -16,9 +16,10 @@ namespace atv9
             leitor.Nome = Console.ReadLine();
 
             Console.Write("Digite sua idade: ");
-            leitor.Idade = Convert.ToInt32(Console.ReadLine());
+            leitor.Idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(leitor.Mensagem());
+            Console.WriteLine("Olá " + leitor.nome() + " " + "Sua idade é: " + leitor.idade() + "!");
+            Console.ReadLine();
         }
     }
 }
