@@ -8,12 +8,19 @@ namespace atv9
 {
     internal class Leitor
     {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
+        public string Nome;
+        public int Idade;
+        public string leitor;
 
-        public string Mensagem()
+        public string nome()
         {
-            return $"Bem-vindo, {Nome}! Você tem {Idade} anos!.";
+            return Nome;
+            
+        }
+        public int idade() 
+        {
+            return Idade;
+           
         }
 
     }
