@@ -13,10 +13,13 @@ namespace atv8
             Antecessor_Sucessor valor = new Antecessor_Sucessor();
 
             Console.Write("Digite um número inteiro: ");
-            valor.Numero = Convert.ToInt32(Console.ReadLine());
+            valor.Numero = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Antecessor: " + valor.Antecessor());
+            Console.ReadLine();
+
             Console.WriteLine("Sucessor: " + valor.Sucessor());
+            Console.ReadLine();
         }
     }
 }
