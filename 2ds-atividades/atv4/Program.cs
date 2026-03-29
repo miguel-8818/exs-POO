@@ -10,19 +10,22 @@ namespace atv4
     {
         static void Main(string[] args)
         {
-            Boletim aluno = new Boletim();
+            Boletim media = new Boletim(); 
 
             Console.Write("Digite a Primeira Nota: ");
-            aluno.num1 = Convert.ToDouble(Console.ReadLine());
+            media.num1 = Convert.ToDouble(Console.ReadLine()); 
 
             Console.Write("Digite a Segunda Nota: ");
-            aluno.num2 = Convert.ToDouble(Console.ReadLine());
+            media.num2 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Digite a Terceira Nota: ");
-            aluno.num3 = Convert.ToDouble(Console.ReadLine());
+            media.num3 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Média: " + aluno.CalcularMedia());
-            Console.WriteLine(aluno.VerificarAprovacao());
+            Console.WriteLine("Média: " + media.CalcularMedia()); 
+            Console.ReadLine();
+
+            Console.WriteLine(media.VerificarAprovacao()); 
+            Console.ReadLine();
         }
     }
 }
